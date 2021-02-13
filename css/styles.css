@@ -1,0 +1,113 @@
+
+* {
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+
+body {
+    background-color:#3399CC;
+    min-height: 100vh;
+    border: 20px solid #2B81AC;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande',sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.container {
+
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1 {
+    padding: 0;
+    font-size: 22px;
+    margin: 25px 0;  
+    display: inline-block;
+}
+
+.icon {
+    font-size: 26px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    border: 4px solid #fff;
+}
+
+ul li {
+    text-align: center;
+}
+
+.col {
+    font-size: 0px;
+    display: inline-block;
+    border:4px solid #fff;
+    padding: 20px 0;
+    width: 25%;
+}
+
+.effect:hover .col {
+    opacity: 1;
+}
+
+.effect:hover .col:not(:hover) {
+    opacity: 0.6;
+}
+
+ul li h2 {
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+
+ul li p {
+    padding: 0;
+    margin: 0;
+    font-size: 20px; 
+    opacity: 0.8;
+}
+
+footer span {
+    display: inline-block;
+    padding: 25px 0; 
+}
+
+@font-face {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    src: url(../6632.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'weathericons', sans-serif;
+    src: url(../font/weathericons-regular-webfont.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'weathericons', sans-serif;
+    src: url(../font/weathericons-regular-webfont.eot) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'weathericons', sans-serif;
+    src: url(../font/weathericons-regular-webfont.woff) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'weathericons', sans-serif;
+    src: url(../font/weathericons-regular-webfont.woff2) format("truetype");
+    font-style: normal;
+    font-weight:400;
+}
